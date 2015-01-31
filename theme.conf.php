@@ -1,24 +1,36 @@
 <?php
-	$theme['name'] = 'TmeaSarap';
-	$theme['author'] = 'goez';
-	$theme['www'] = 'http://eggoez.com/flatpress';
-	$theme['description'] = 'Simple Themes for blog FlatPress use BootStrap'.
-							'proyek';
-	$theme['version'] = 1.0;
+/*  
+Theme Name: TemaSarap
+Theme URI: http://eggoez.com/flatpress
+Description: Just created themes from bootstrap
+Version: 1.0
+Author: eggoez
+Author URI: http://goez.my.id
+*/
+	$theme['name'] = 'botsarap';
+	$theme['author'] = 'eggoez';
+	$theme['www'] = 'http://goez.my.id';
+	$theme['description'] = 'theme bot'.
+							'sarap';
+	
+	$theme['version'] = 1.0.18;
+		
 	$theme['style_def'] = 'style.css';
 	$theme['style_admin'] = 'admin.css';
 	remove_filter('admin_head', 'admin_head_action'); 
-
-	// adds a javascript (expand/collapse) thanks for old fp themes flatmaas2
-	function tema_TemaSarap_head() {
+	function theme_ts_head() {
+		
 		global $blog_config;
+		
 		echo "<!-- Theme Head -->\n";
 		echo '<script src="' . THEMES_DIR . 
 			$blog_config['THEME'] .
-			'TemaSarap/res/toggleMenu.js" type="text/javascript"></script>';
-		echo "\n<!-- End Of Theme Head -->\n";
+			'bs/res/bootstrap.min.js" type="text/javascript"></script>';
+		echo "\n<!-- EndOf Theme Head -->\n";
 	}
-	add_action('wp_head', 'tema_TemaSarap_head');
+	
+	add_action('wp_head', 'theme_bs_head');
+	register_widgetset('top');
 	register_widgetset('right');
 	register_widgetset('left'); 
 	register_widgetset('menubar');
