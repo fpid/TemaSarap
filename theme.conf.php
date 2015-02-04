@@ -2,16 +2,15 @@
 /*
 Theme Name: TemaSarap
 Theme URI: http://eggoez.com/flatpress
-Description: Just created themes from bootstrap
+Description: Simple Themes for blog FlatPress use BootStrap. Style Yeti by BootSwatch.
 Version: 1.01;
 Author: eggoez
 Author URI: http://goez.my.id
 */
-	$theme['name'] = 'botsarap';
+	$theme['name'] = 'TemaSarap';
 	$theme['author'] = 'goez';
 	$theme['www'] = 'http://goez.my.id';
-	$theme['description'] = 'theme bot'.
-							'sarap';
+	$theme['description'] = 'Simple Themes for blog FlatPress use BootStrap. Style Yeti by BootSwatch.'.;
 	
 	$theme['version'] = 1.01;
 		
@@ -23,11 +22,11 @@ Author URI: http://goez.my.id
 	function theme_bs_head() {
 		global $blog_config;
 		
-		echo "<!-- Theme Head -->\n";
+		echo "<!-- TemaSarap Head -->\n";
 		echo '<script src="' . THEMES_DIR . 
 			$blog_config['THEME'] .
-			'bs/res/bootstrap.min.js" type="text/javascript"></script>';
-		echo "\n<!-- EndOf Theme Head -->\n";
+			'TemaSarap/res/bootstrap.min.js" type="text/javascript"></script>';
+		echo "\n<!-- EndOf TemaSarap Head -->\n";
 	}
 	
 	add_action('wp_head', 'theme_bs_head');
