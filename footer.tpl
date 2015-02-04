@@ -26,7 +26,7 @@
 			<li><a href="https://github.com/eggoez" class="social-icon github" title="Follow us on github"><i class="social_icon fa fa-github"></i></a></li></ul></div>
 		-->
 			<!-- <div class="copyright col-md-6 pull-center"> -->
-		<!-- Please don\'t Remove this Credits -->
+		<!-- Please don't Remove this Credits -->
 			<center><p>Powered by <a href="http://www.flatpress.org/">FlatPress</a>. <a href="https://github.com/eggoez/TemaSarap" title="Tema Sarap">TemaSarap</a> by <a href="http://goea.my.id" title="Tema Sarap">eggoez</a>.</p></center>
 			<!-- .scroll-to-top -->
 			</footer>
