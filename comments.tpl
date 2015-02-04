@@ -41,7 +41,7 @@
 				{nextpage}{prevpage}
 			</div>
 		{/entry_block}
-      {include file="shared:comment-form.tpl"}
+      {include file=comment-form.tpl}
   </div>
     {include file=widgets.tpl}
 	<hr />
