@@ -27,7 +27,7 @@
 		-->
 			<!-- <div class="copyright col-md-6 pull-center"> -->
 		<!-- Please don't Remove this Credits -->
-			<center><p>Powered by <a href="http://www.flatpress.org/">FlatPress</a>. <a href="https://github.com/eggoez/TemaSarap" title="Tema Sarap">TemaSarap</a> by <a href="http://goea.my.id" title="Tema Sarap">eggoez</a>.</p></center>
+			<center><p>Powered by <a href="http://www.flatpress.org/">FlatPress</a>. <a href="https://github.com/eggoez/TemaSarap" title="Tema Sarap">TemaSarap</a> by <a href="http://goez.my.id" title="Tema Sarap">eggoez</a>.</p></center>
 			<!-- .scroll-to-top -->
 			</footer>
 		<!--</div>--> 
