@@ -63,9 +63,14 @@
  </div>
     </div>
      </div>
- <!--<div id="menu">{widgets pos=menubar}<div id="{$id}">	{$content}	</div>{/widgets}	</div> -->	
-  <div class="top-section">	</div>
- <!--<div id="head">	<h1><a href="{$smarty.const.BLOG_BASEURL}">{$flatpress.title}</a></h1>	<p class="subtitle">{$flatpress.subtitle}</p></div>-->
+  <div class="top-section">
+  </div>
+ <!-- follow the jumbotron script to setting this
+ <div id="head">
+ <h1><a href="{$smarty.const.BLOG_BASEURL}">{$flatpress.title}</a></h1>
+ <p class="subtitle">{$flatpress.subtitle}</p>
+ </div>
+ -->
   <div id="content" class="site-content container">
    <div id="primary" class="content-area col-sm-12 col-md-8 pull-left">	
      <main id="main" class="site-main" role="main">
