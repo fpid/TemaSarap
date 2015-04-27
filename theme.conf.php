@@ -10,7 +10,8 @@ Author URI: http://goez.my.id
 	$theme['name'] = 'TemaSarap';
 	$theme['author'] = 'goez';
 	$theme['www'] = 'http://goez.my.id';
-	$theme['description'] = 'Simple Themes for blog FlatPress use BootStrap. Style Yeti by BootSwatch.'.;
+	$theme['description'] = 'Simple Themes for blog FlatPress use BootStrap. Style Yeti by '.
+							'BootSwatch.';
 	
 	$theme['version'] = 1.01;
 		
